@@ -9,6 +9,7 @@ layout: default
   <div>
     <ol class="posts">
       {% for post in site.posts reversed %}
+        <h1>{{ post.path }}</h1>
           {% if post.path contains 'deeplearning' %}
             <li><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></li>
           {% endif %}
