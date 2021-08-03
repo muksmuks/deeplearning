@@ -12,6 +12,9 @@ collections:
   project:
     output: true
     permalink: /project/:path/
+  posts:
+    output: true
+    permalink: /posts/:title.html
 
 social:
     - icon: fa-linkedin
@@ -28,6 +31,9 @@ urls:
       url: /about/
     - text: My Projects
       url: /projects/
+      
+url: "https://muksmuks.github.io/deeplearning"
+baseurl: "https://muksmuks.github.io/deeplearning"
 
 compress_html:
   clippings: all
